@@ -1,0 +1,10 @@
+.material-icons {
+
+    vertical-align: middle;
+    margin-top: 10px;
+    color:grey;
+}
+
+.icon:hover{
+    color: red;
+}

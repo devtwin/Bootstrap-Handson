@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Multiple products using cards</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="app.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+   
+    <a class="navbar-brand" href="#">hTrack</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <div class="navbar-nav float-left text-left pr-3 ml-auto">
+        <a class="nav-item nav-link " href="#products">Products</a>
+        <a class="nav-item nav-link" href="#goals">Goals</a>
+        </div>
+    </div>
+   
+  </nav>
+
+  <h4 style="margin-left: 10px;">Products</h4>
+  
+
+<div class="container-fluid">
+
+<div class="row">
+    <div class="column">
+      <div class="card" style="width: 18rem;margin-left: 20px;margin-top:10px;">
+
+        <img src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" class="card-img-top" alt="...">
+        <div class="card-body" style="width: 300px;">
+          <div class="row">
+          <h5 class="card-title" class="card-text" style="margin-left: 15px;">Coco Oil (200g)</h5>
+          <!--<button type="button" class="btn btn-success">4.4<i class="far fa-star" ></i></button>-->
+          <label class="button btn-success" style="margin-right: 10px;margin-left: 10px;padding-left: 10px;border-radius: 5px;font-size: 15px;">4.4 <i class="fa fa-star pr-2" ></i></label>  
+          <span style="margin-bottom: 10px;margin-left: 15px;"> Rs.200.00 <del>Rs.250.00 </del>20%  <i class="material-icons md-18" class="icon-size" style="color:brown;padding-top: 10px;">new_releases</i>
+     </div>
+         <p class="card-text">Escape is an innovative, skin-loving formulation, formulatted with certified Fair Trade Cold Pressed Organic Coconut Oil, produced sustainably in th Pacific Islands and supporting local communities.</p>
+          <div class="row"></div>
+          <a href="#" class="btn btn-success">
+          <i class="material-icons md-18" class="icon-size" >shopping_cart</i> Add to Cart</a>   
+            <i class="material-icons" style="margin-left: 40px;" id="iconsize">favorite_border</i>
+            </div>
+     </div>
+    </div>
+
+    <div class="column">
+      <div class="card"style="width: 18rem;margin-left: 20px;margin-top:10px;">
+        <img src="https://images.unsplash.com/photo-1519735777090-ec97162dc266?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1415&q=80" class="card-img-top" alt="...">
+        <div class="card-body" style="width: 300px;">
+          <div class="row">
+          <h5 class="card-title" class="card-text" style="margin-left: 15px;">Mad About Waves (300ml)</h5>
+          <!--<button type="button" class="btn btn-success">4.4<i class="far fa-star" ></i></button>-->
+          <label class="button btn-warning" style="padding-left: 10px;margin-left:  15px;border-radius: 5px;font-size: 15px;color: black;">3.5 <i class="fa fa-star pr-2" ></i></label>  
+          <span style="margin-bottom: 10px;margin-left: 15px;"> Rs. 150.00 <del>Rs.200.00 </del> 22%  <i class="material-icons md-18" class="icon-size" style="color:brown;padding-top: 10px;">new_releases</i>
+     </div>
+         <p class="card-text">Mad About Waves is the holistic care and styling regime dedicated to beautifying every wave type. The range is designed to tame, respect and to protect the hair - embracing each unique pattern, for breezy waves that last.</p>
+          <div class="row"></div>
+          <a href="#" class="btn btn-success">
+          <i class="material-icons md-18" class="icon-size" >shopping_cart</i> Add to Cart</a>   
+            <i class="material-icons" style="margin-left: 40px;" id="iconsize">favorite_border</i>
+            </div>
+         </div>
+    </div>
+
+
+    <div class="column">
+        <div class="card"style="width: 18rem;margin-left: 20px;margin-top:10px;">
+            <img src="https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
+          <div class="card-body" style="width: 300px;">
+            <div class="row">
+            <h5 class="card-title" class="card-text" style="margin-left: 15px;">Maui Moisture (Bamboo Fibers Shampoo 305ml)</h5>
+            <!--<button type="button" class="btn btn-success">4.4<i class="far fa-star" ></i></button>-->
+            <label class="button btn-warning" style="margin-right: 10px;margin-left: 15px;padding-left: 10px;border-radius: 5px;font-size: 15px;color: black;">3.1 <i class="fa fa-star pr-2" ></i></label>  
+            <span style="margin-bottom: 10px;margin-left: 15px;"> Rs. 455.00 </span>
+       </div>
+           <p class="card-text">Light weight spray conditioner suitable as a leave-in for wavy hair types. With Aquarine Complex, the formula detangles, hydrates and gives listing definition, creating a soft, beach-wave look. Strengthens the hair and provides heat protection up to 60 C'.</p>
+            <div class="row"></div>
+            <a href="#" class="btn btn-success">
+            <i class="material-icons md-18" class="icon-size" >shopping_cart</i> Add to Cart</a>   
+              <i class="material-icons" style="margin-left: 30px;" id="iconsize">favorite_border</i>
+              </div>
+           </div>
+      </div>
+
+
+      <div class="column">
+        <div class="card"style="width: 18rem;margin-left: 20px;margin-top:10px;">
+          <img src="https://images.unsplash.com/photo-1559056199-5a47f60c5053?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+          <div class="card-body" style="width: 300px;">
+            <div class="row">
+            <h5 class="card-title" class="card-text" style="margin-left: 15px;">Battlecreek Coffee (200g)</h5>
+            <!--<button type="button" class="btn btn-success">4.4<i class="far fa-star" ></i></button>-->
+            <label class="button btn-danger" style="margin-left: 25px;padding-left: 10px;border-radius: 5px; width: fit-content;">2.5<i class="fa fa-star pr-2" style="padding-left: 5px;"></i></label>  
+            <span style="margin-bottom: 10px;margin-left: 15px;"> Rs.200.00 <del>Rs.250.0 </del>20%  <i class="material-icons md-18" class="icon-size" style="color:brown;padding-top: 10px;">new_releases</i>
+       </div>
+           <p class="card-text">This blend made from 100% specially selected beans creates a intensely aromatic flavour that makes it the ultimate coffee to look forward to at any time of day.</p>
+            <div class="row"></div>
+            <a href="#" class="btn btn-success">
+            <i class="material-icons md-18" class="icon-size" >shopping_cart</i> Add to Cart</a>   
+              <i class="material-icons" style="margin-left: 30px;" id="iconsize">favorite_border</i>
+              </div>
+           </div>
+      </div>
+      
+        <div class="card"style="width: 18rem;margin-left: 20px;">
+          <img src="https://im.idiva.com/content/2020/Mar/Face-oil-iDiva-1_5e7c45807e371.jpg" class="card-img-top" alt="...">
+          <div class="card-body" style="width: 300px;">
+            <div class="row">
+            <h5 class="card-title" class="card-text" style="margin-left: 15px;">Lapis Facial Oil (100ml)</h5>
+            <!--<button type="button" class="btn btn-success">4.4<i class="far fa-star" ></i></button>-->
+            <label class="button btn-success" style="margin-right: 10px;margin-left: 10px;padding-left: 10px;border-radius: 5px;font-size: 15px;">4.8<i class="fa fa-star pr-2" style="padding-left: 5px;" ></i></label>  
+            <span style="margin-bottom: 10px;margin-left: 15px;"> Rs. 750.00 <del>Rs.1,000.00 </del>25%  <i class="material-icons md-18" class="icon-size" style="color:brown;padding-top: 10px;">new_releases</i>
+       </div>
+           <p class="card-text">Lapis Facial Oil holds a component called Azulene which aids in soothing dry irritated skin,reducing the appearence of redness and balancing skin. Formulated for combination, oily and blemish-prone skin types or any skin in need of balancing hydration.</p>
+            <div class="row"></div>
+            <a href="#" class="btn btn-success">
+            <i class="material-icons md-18" class="icon-size" >shopping_cart</i> Add to Cart</a>   
+              <i class="material-icons" style="margin-left: 30px;" id="iconsize">favorite_border</i>
+              </div>
+           </div>
+  </div>
+
+</div>
+</body>
+  </html>

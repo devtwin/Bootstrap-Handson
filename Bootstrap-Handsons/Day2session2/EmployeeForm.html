@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Form using Bootstrap</title>
+    <link rel="icon" type="image/png" href="/resources/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+   
+        <h2 class="navbar-brand" href="#">Payroll</h2>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    </nav>
+
+<h2 style="margin-left: 15px;margin-right: 10px;">New Employee</h2>
+   
+<form style="margin-left: 15px;">
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <label for="fname">First Name</label>
+        <input type="text" class="form-control" id="fname" >
+      </div>
+      <div class="form-group col-md-4">
+        <label for="mname">Middle Name</label>
+        <input type="text" class="form-control" id="mname" >
+      </div>
+      <div class="form-group col-md-4">
+        <label for="lname">Last Name</label>
+        <input type="text" class="form-control" id="lname" >
+      </div>
+    </div>
+
+
+    <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="address1">Address Line 1</label>
+      <input type="text" class="form-control" id="addresss1" >
+    </div>
+    <div class="form-group col-md-6">
+      <label for="address2">Address Line 2</label>
+      <input type="text" class="form-control" id="address2">
+    </div>
+
+</div>
+
+
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="emailid">Email</label>
+        <input type="email" class="form-control" id="emailid">
+      </div>
+      <div class="form-group col-md-3">
+        <label for="pwd">Password</label>
+        <input type="password" class="form-control" id="pwd">
+     
+      </div>
+      <div class="form-group col-md-3">
+        <label for="cpwd">Confirm Password</label>
+        <input type="text" class="form-control" id="cpwd">
+      </div>
+      
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-3">
+          <label for="dept">Department</label>
+          <input type="text" class="form-control" id="dept">
+        </div>
+        <div class="form-group col-md-3">
+          <label for="dateOfBirth">Date of Birth</label>
+          <input type="text" class="form-control" id="dateOfBirth">
+       
+        </div>
+        <div class="form-group col-md-3">
+          <label for="gender">Gender</label><br>
+         <!-- <input type="radio" id="male" name="gender" class="radio-inline" style="margin-left: 10px;">Male 
+          <input type="radio" id="female" name="gender" class="radio-inline">Female-->
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gender" id="male">
+            <label class="form-check-label" for="male">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gender" id="female">
+            <label class="form-check-label" for="female">Female</label>
+        </div>
+        </div>
+        
+        <div class="form-group col-md-3" >
+            <label>Permanent</label>
+            <br>
+            <div class="form-check form-check-inline">
+
+                <input class="form-check-input" type="checkbox" id="checkbox1" checked>
+
+            </div>
+        </div>
+
+
+      </div>
+
+
+    <button type="submit" class="btn btn-success">Save</button>
+  </form>
+
+    <script>
+
+        $('#dateOfBirth').datepicker({
+
+            uiLibrary: 'bootstrap4',
+
+            format: 'dd/mm/yyyy'
+
+        });
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+ </body> 
+ </html>
